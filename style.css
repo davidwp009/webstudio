@@ -1,6 +1,18 @@
-.box{
-    color: blue;
+header{
+    background: #FFF;
 }
-.fg{
-    color: blue;
+main{
+    background: #FFF;
+}
+footer{
+    background: #2F303A;
+}
+.box{
+    background: #2F303A;
+}
+.top{
+    background: #FFF;
+}
+.ggg{
+    background: #2F303A;
 }
