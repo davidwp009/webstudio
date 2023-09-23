@@ -125,3 +125,39 @@ a{
     height: 21px;
     color: var(--nav-number);  
 }
+.main{
+    background-color: var(--main-title);
+}
+.butt-item-tt{
+    width: 73px;
+    height: 38px;
+    flex-shrink: 0;
+    background-color: var(--header-web);
+    color: var(--main-title);
+    font-size: 16px;
+    font-weight: 500;
+}
+.butt-item{
+    width: 125px;
+    height: 38px;
+    flex-shrink: 0; 
+    background-color: var(--button);
+    color: var(--nav);
+    font-size: 16px;
+    font-weight: 500; 
+}
+.picture{
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+}
+.portfolio-do{
+    color: var(--nav);
+    font-size: 18px;
+    font-weight: 700;
+}
+.portfolio-link{
+    color: var(--li-p);
+    font-size: 16px;
+    font-weight: 400;
+}
