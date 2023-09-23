@@ -1,18 +1,127 @@
-header{
-    background: #FFF;
+:root{
+    --header-web:#2196F3;
+    --nav-studio:#000000;
+    --nav:#212121;
+    --nav-number:#757575;
+    --main:#2F303A;
+    --main-title:#FFFFFF;
+    --li-h2:#000000;
+    --li-p:#757575;
+    --footer-background:#2F303A;
+    --button:#F5F4FA;
 }
-main{
-    background: #FFF;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-footer{
-    background: #2F303A;
+h1,h2,h3,p{
+    margin-bottom: 0;
+    margin-top: 0;
 }
-.box{
-    background: #2F303A;
+ul{
+    list-style: none;
+    padding: 0;
+    max-width: 0;
 }
-.top{
-    background: #FFF;
+
+a{
+    cursor: pointer;
+    text-decoration: none;
 }
-.ggg{
-    background: #2F303A;
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--header-web)
+}
+.black{
+    color: var(--nav-studio);
+}
+.navigation{
+    font-size: 14px;
+    font-weight: 500;
+}
+.site-nav-link{
+    color: var(--nav);
+}
+.contact-link{
+    color: var(--nav-number);
+}
+.contacts{
+    font-size: 14px;
+    font-weight: 500;
+}
+.menu{
+    background-color: var(--footer-background);
+}
+.menu-biznes{
+    width: 696px;
+    color: var(--main-title);
+}
+.menu-but{
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: var(--header-web);
+    color: var(--main-title);
+    font-size: 16px;
+    font-weight: 700;
+}
+.fact{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--nav);
+}
+.true{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--nav-number);
+}
+.what-we-do{
+    background-color: var(--main-title);
+}
+.what-we-do-item{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--nav);
+}
+.img{
+    width: 370px;
+    height: 294px;
+    flex-shrink: 0;
+}
+.work{
+    background-color: var(--button);
+}
+.personalization{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--nav);
+}
+.photo{
+    width: 270px;
+    height: 260px;
+    flex-shrink: 0;
+}
+.person{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--nav);
+}
+.work-do{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--nav-number);
+}
+.footer{
+    background-color: var(--footer-background);
+}
+.address{
+    width: 231px;
+    height: 21px;
+    color: var(--main-title);
+}
+.inf{
+    width: 231px;
+    height: 21px;
+    color: var(--nav-number);  
 }
