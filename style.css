@@ -12,20 +12,24 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
-h1,h2,h3,p{
-    margin-bottom: 0;
-    margin-top: 0;
+.conteiner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
-ul{
-    list-style: none;
-    padding: 0;
-    max-width: 0;
+.header{
+   padding-top: 24px;
+   padding-bottom: 25px; 
 }
-
-a{
-    cursor: pointer;
-    text-decoration: none;
+.feature{
+    padding-bottom: 94px;
+    padding-bottom: 94px;
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -52,24 +56,38 @@ a{
 }
 .menu{
     background-color: var(--footer-background);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .menu-biznes{
-    width: 696px;
     color: var(--main-title);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 136%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
 }
 .menu-but{
-    width: 216px;
-    height: 50px;
-    flex-shrink: 0;
     background-color: var(--header-web);
     color: var(--main-title);
     font-size: 16px;
     font-weight: 700;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);;
+}
+.menu-wrap{
+    display: flex;
+    justify-content: center;
 }
 .fact{
     font-size: 14px;
     font-weight: 700;
     color: var(--nav);
+    margin-bottom: 10px;
 }
 .true{
     font-size: 14px;
@@ -78,11 +96,14 @@ a{
 }
 .what-we-do{
     background-color: var(--main-title);
+    padding-bottom: 94px;
 }
 .what-we-do-item{
     font-size: 36px;
     font-weight: 700;
     color: var(--nav);
+    margin-bottom: 50px;
+    text-align: center;
 }
 .img{
     width: 370px;
@@ -91,11 +112,15 @@ a{
 }
 .work{
     background-color: var(--button);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .personalization{
     font-size: 36px;
     font-weight: 700;
     color: var(--nav);
+    margin-bottom: 50px;
+    text-align: center;
 }
 .photo{
     width: 270px;
@@ -114,6 +139,8 @@ a{
 }
 .footer{
     background-color: var(--footer-background);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .address{
     width: 231px;
@@ -161,3 +188,5 @@ a{
     font-size: 16px;
     font-weight: 400;
 }
+
+
