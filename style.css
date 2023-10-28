@@ -25,17 +25,33 @@ body{
 }
 .feature{
     padding-bottom: 94px;
-    padding-bottom: 94px;
+}
+.feature-list{
+    width: 270px;
+}
+.feature-item{
+    display: flex;
+    justify-content: space-between ;
 }
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.logo-nav{
+    display: flex;
+    align-items: center;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color: var(--header-web)
+    color: var(--header-web);
+    margin-right: 93px; 
+    
 }
 .black{
     color: var(--nav-studio);
@@ -43,6 +59,11 @@ body{
 .navigation{
     font-size: 14px;
     font-weight: 500;
+}
+.site-nav{
+    width: 281px;
+    display: flex;
+    justify-content: space-between;
 }
 .site-nav-link{
     color: var(--nav);
@@ -53,6 +74,10 @@ body{
 .contacts{
     font-size: 14px;
     font-weight: 500;
+    display: flex;
+}
+.mail{
+    margin-right: 50px;
 }
 .menu{
     background-color: var(--footer-background);
@@ -93,6 +118,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     color: var(--nav-number);
+    line-height: 170%;
 }
 .what-we-do{
     background-color: var(--main-title);
@@ -104,6 +130,10 @@ body{
     color: var(--nav);
     margin-bottom: 50px;
     text-align: center;
+}
+.what-we-do-list{
+     display: flex;
+     justify-content: space-between;
 }
 .img{
     width: 370px;
@@ -122,10 +152,21 @@ body{
     margin-bottom: 50px;
     text-align: center;
 }
+.personalization-us{
+    display: flex;
+    justify-content: space-between;
+}
 .photo{
     width: 270px;
     height: 260px;
-    flex-shrink: 0;
+    margin-bottom: 30px;
+}
+.personalization-list{
+    text-align: center;
+}
+.personalization-who{
+    width: 270px;
+    padding-bottom: 30px;
 }
 .person{
     font-size: 16px;
