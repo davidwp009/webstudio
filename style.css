@@ -104,6 +104,7 @@ body{
     margin-right: 50px;
 }
 .menu{
+    background-image: url(./img/Img.webp);
     background-color: var(--footer-background);
     padding-top: 200px;
     padding-bottom: 200px;
