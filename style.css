@@ -39,19 +39,19 @@ body{
     height: 120px;
     background-color: var(--button);
     border-radius: 4px;
-    background-image: url(img/antenna1.png);
+    background-image: url(img/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .feature-list:nth-child(2)::before{
-    background-image: url(img/clock1.png);
+    background-image: url(img/clock.webp)
 }
 .feature-list:nth-child(3)::before{
-    background-image: url(img/diagram1.png);
+    background-image: url(img/diagram.webp);
 }
 .feature-list:nth-child(4)::before{
-    background-image: url(img/astronaut1.png);
+    background-image: url(img/astronaut.webp);
 }
 .feature-item{
     display: flex;
@@ -126,7 +126,7 @@ body{
     padding: 10px 32px;
     border: none;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .menu-wrap{
     display: flex;
@@ -192,6 +192,10 @@ body{
 .personalization-who{
     width: 270px;
     padding-bottom: 30px;
+    background-color: var(--main-title);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
 }
 .person{
     font-size: 16px;
@@ -231,13 +235,15 @@ body{
     font-weight: 500;
 }
 .butt-item{
-    width: 125px;
-    height: 38px;
-    flex-shrink: 0; 
-    background-color: var(--button);
-    color: var(--nav);
+    background: var(--button);
+    font-weight: 500px; 
+    border-radius:4px;
     font-size: 16px;
-    font-weight: 500; 
+    border: none;
+    padding: 6px 22px;
+    line-height: 162%;
+    cursor: pointer;
+    font-family:'Roboto', sans-serif;
 }
 .picture{
     width: 370px;
