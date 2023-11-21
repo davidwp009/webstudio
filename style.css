@@ -235,6 +235,9 @@ body{
     font-size: 16px;
     font-weight: 500;
 }
+.butt-list{
+    text-align: center;
+}
 .butt-item{
     background: var(--button);
     font-weight: 500px; 
@@ -245,6 +248,13 @@ body{
     line-height: 162%;
     cursor: pointer;
     font-family:'Roboto', sans-serif;
+}
+.butt{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    
+    
 }
 .picture{
     width: 370px;
@@ -261,5 +271,14 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+.portfolio-item{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio:nth-child(1){
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
+}
+
 
 
