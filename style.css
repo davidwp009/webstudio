@@ -9,6 +9,7 @@
     --li-p:#757575;
     --footer-background:#2F303A;
     --button:#F5F4FA;
+    --icon-color:#AFB1B8
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -100,6 +101,21 @@ body{
     font-weight: 500;
     display: flex;
 }
+.contatcs .contact-link:hover,
+.contatcs .contact-link:focus{
+    fill: var(--header-web);
+
+}
+.contact-link:hover .conten-icon{
+   fill: var(--header-web)
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+}
+.contact-icon{
+    margin-right: 10px; 
+}
 .mail{
     margin-right: 50px;
 }
@@ -182,6 +198,31 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.social-icon{
+    width: 20px;
+    height: 20px;
+}
+.social-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+.social-link{
+    fill: var(--icon-color);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-link:hover,
+.social-link:focus{
+    fill: var(--button);
+    background-color: var(--header-web);
+}
 .photo{
     width: 270px;
     height: 260px;
@@ -202,6 +243,32 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: var(--nav);
+}
+.always{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 94px;
+    margin-top: 66px;
+    margin-bottom: 110px;
+}
+.always-box{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    margin-top: 94px;
+}
+.always-item{
+    fill: var(--icon-color);
+}
+.always-item:hover,
+.always-item:focus{
+    fill: var(--header-web);
+}
+
+.always-list{
+    width: 106px;
+    height: 60px;
 }
 .work-do{
     font-size: 16px;
@@ -285,6 +352,7 @@ body{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 
 }
+
 
 
 
