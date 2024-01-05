@@ -301,7 +301,7 @@ body{
 }
 .foot-link:hover,
 .foot-link:focus{
-    fill: var(--button);
+    fill: var(--icon-color);
     background-color: var(--header-web);
 }
 .address{
