@@ -180,6 +180,25 @@ body{
     height: 294px;
     flex-shrink: 0;
 }
+.activity-subtitle{
+    position: absolute;
+    bottom: 3px;
+    color: var(--main-title);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.80);;
+}
+.activity{
+    position: relative;
+}
 .work{
     background-color: var(--button);
     padding-top: 94px;
