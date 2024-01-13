@@ -31,7 +31,6 @@ body{
 .feature-list{
     width: 270px;
     background-color: var(--main-title);
-    text-align: center;
 }
 .feature-list::before{
     content: '';
@@ -69,6 +68,7 @@ body{
 .header-wrap{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -92,6 +92,10 @@ body{
 }
 .site-nav-link{
     color: var(--nav);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 .contact-link{
     color: var(--nav-number);
@@ -153,6 +157,7 @@ body{
     color: var(--nav);
     margin-bottom: 10px;
     margin-top: 30px;
+    text-transform: uppercase;
 }
 .true{
     font-size: 14px;
@@ -260,6 +265,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     color: var(--nav);
+    margin-bottom: 10px;
 }
 .always{
     display: flex;
@@ -276,17 +282,25 @@ body{
     margin-top: 94px;
 }
 .always-item{
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid var(--icon-color);
     fill: var(--icon-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.always-item .always-list:hover{
+.always-item:hover{
+    border-radius: var(--header-web);
+}
+.always-item:hover .always-list{
     fill: var(--header-web);
+    border-color: var(--header-web);
 }
-
 .always-list{
     width: 106px;
     height: 60px;
-    border-radius: 4px;
-    border: 1px solid var(--icon-color);
 }
 .work-do{
     font-size: 16px;
@@ -297,6 +311,10 @@ body{
     background-color: var(--footer-background);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
 }
 .foot-icon{
     width: 20px;
