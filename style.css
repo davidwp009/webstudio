@@ -341,6 +341,36 @@ body{
     fill: var(--icon-color);
     background-color: var(--header-web);
 }
+.foot-text{
+    font-size: 14px;
+    color: var(--main-title);
+}
+.send{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    color: var(--main-title);
+}
+.form{
+    width: 358px;
+    height: 50px;
+}
+.send-box{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: var(--header-web);
+}
+.sub{
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: var(--main-title);
+}
 .address{
     width: 231px;
     height: 21px;
