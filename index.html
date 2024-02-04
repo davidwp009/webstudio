@@ -53,7 +53,7 @@
         <div class="container">
         <h1 class="menu-biznes">Ефективні рішення для </br>вашого бізнесу</h1>
          <div class="menu-wrap">
-        <button class="menu-but">Замовити послугу</button>
+        <button class="menu-but" data-modal-open>Замовити послугу</button>
         </div>
         </div>
        </section> 
@@ -326,5 +326,57 @@
             
        </div> 
     </footer>
+    <!--modal-window-->
+
+    <div class="backdrop is-hidden" data-modal>
+       <div class="madal">
+         <button type="button" class="modal-close-button" data-modal-close>
+           <svg class="modal-icon">
+             <use href="./img/symbol-defs.svg#icon-close-black"></use>
+           </svg>
+         </button>
+         <form class="modal-form">
+            <h3 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h3>
+           <div class="modal-form-field">
+            <label for="name" class="modal-form-label">name</label>
+            <input type="text" id="name" class="modal-form-input">
+            <svg class="modal-form-icon">
+                <use href=""></use>
+            </svg>
+         </div> 
+         <div class="modal-form-field">
+            <label for="tel" class="modal-form-label">name</label>
+            <input type="tel" id="tel" class="modal-form-input">
+            <svg class="modal-form-icon">
+                <use href="./img/symbol-defs.svg#icon-phone-black"></use>
+            </svg>
+         </div>
+         <div class="modal-form-field">
+            <label for="email" class="modal-form-label">name</label>
+            <input type="email" id="email" class="modal-form-input">
+            <svg class="modal-form-icon">
+                <use href="./img/symbol-defs.svg#icon-email-black"></use>
+            </svg>
+         </div>
+          <label class="modal-form-policy">
+           <input type="checkbox" class="modal-form-checkbox">
+           <p>Погоджуйся з розсилкою та приймаю
+            <a href="#"> умови договору</a>
+           </p>  
+          </label>
+          <button type="submit" class="agree-btn">відправити</button>
+
+         </form>
+       </div>
+
+
+    </div>
+
+
+
+
+
+
+<script src="./script.js"></script>    
 </body>
 </html>
