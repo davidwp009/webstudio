@@ -514,6 +514,10 @@ body{
 .modal-icon:focus{
     fill: var(--header-web);
 }
+.backdrop{
+    width: 350px;
+    height: 350px;
+}
 
 
 
