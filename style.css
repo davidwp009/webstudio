@@ -518,6 +518,7 @@ body{
   .modal-form { 
     width: 528px; 
     padding-left: 40px; 
+    background-color: var(--main-title);
   }
 
 
