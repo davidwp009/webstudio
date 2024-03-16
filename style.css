@@ -520,6 +520,10 @@ body{
     padding-left: 40px; 
     background-color: var(--main-title);
   }
+  .modal-form-icon{
+    width: 18px;
+    height: 18px;
+  }
 
 
 
